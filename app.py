@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 import pickle
-
-# Load trained logistic regression assignment
 model = pickle.load(open("logistic_regression_assignment.pkl", "rb"))
 
 # Streamlit app
